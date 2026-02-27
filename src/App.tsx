@@ -70,26 +70,11 @@ export default function App() {
           </motion.p>
         </div>
 
-        {/* Image Section */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.5 }}
-          className="relative w-full max-w-sm rounded-2xl overflow-hidden shadow-xl border-4 border-white"
-        >
-          <img
-            src="https://i.imgur.com/saxGZ53.png"
-            alt="Nossa Senhora"
-            className="w-full h-auto object-cover"
-            referrerPolicy="no-referrer"
-          />
-        </motion.div>
-
-        {/* Description - Now Below Image */}
+        {/* Description */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.7 }}
+          transition={{ delay: 0.5 }}
           className="text-base md:text-lg text-gray-600 leading-relaxed font-light italic max-w-2xl"
         >
           Um devocional diário para rezar, confiar e sentir-se espiritualmente acompanhado(a) pela Mãe que intercede por você.
